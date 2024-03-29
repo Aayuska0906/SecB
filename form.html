@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/form.css">
+    <title>HTML Form</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a  href="index.html">Home</a> |
+        <a href="#">HTML Form </a>
+        <a href="contact.html">Contact Us</a>
+        <a href="table.html">Table</a>
+        <a href="list.html">List</a>
+    </nav>
+    <div class="registration">
+    <h2>Registration Form</h2>
+    <form >
+    <input type="text" placeholder="FirstName">
+    <input type="text" placeholder="MiddleName">
+    <input type="text" placeholder="LastName">
+    <input type="number" max="10" placeholder="Phone Number">
+    <input type="email" placeholder="E-mail">
+    <label for="">Select Program: </label>
+    <i>MBA:</i> <input type="radio" checked="checked" id="mba" name="program" value="MBA">
+   <i>BIT:</i>  <input type="radio" id="bit" name="program" value="BIT">
+    <i>BBA:</i> <input type="radio" id="bba" name="program" value="BBA">
+    
+    <label  for="">When you want to join? (select one)</label>
+    <select name="">
+        <option value="">Summer 2024</option>
+        <option value="">Winter 2025</option>
+        <option value="">Summer 2025</option>
+    </select>
+    <label  for="">DOB: </label>
+    <input type="date" id="dob" name="dob">
+    <input type="file">
+    <input type="color" placeholder="your fav color">
+    <input  type="submit" value="Register">
+    <input  type="reset" value="Reset">
+        
+
+</form>
+</div>
+</body>
+</html>

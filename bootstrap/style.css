@@ -1,0 +1,19 @@
+.btn{
+    background-color: skyblue;
+    border: none;
+    color: black;
+    width: 100px;
+}
+th:hover {
+    background-color: #e12b1a;
+    
+  }
+  th{
+    justify-content: center;
+    text-align:top;
+
+
+  }
+  td{
+    font-family: monospace;}
+    /* border: 1px solid black;
